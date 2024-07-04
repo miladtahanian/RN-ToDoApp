@@ -1,0 +1,12 @@
+export declare const isBefore: (firstDate: string, secondDate: string, dateSeparator: string) => boolean;
+export declare const isAfter: (firstDate: string, secondDate: string, dateSeparator: string) => boolean;
+export declare const today: () => string;
+export declare const lastYear: () => string;
+export declare const nextYear: () => string;
+export declare const getTimeHours: () => string[];
+export declare const getTimeMinutes: () => string[];
+export declare const getDays: (year: number, month: number) => any[];
+export declare const getYears: (min: number, max: number) => number[];
+export declare const fullDate: (year: number, month: number, day: number | string, dateSeparator: string) => string;
+export declare const toPersian: (num: string) => string;
+//# sourceMappingURL=utils.d.ts.map
